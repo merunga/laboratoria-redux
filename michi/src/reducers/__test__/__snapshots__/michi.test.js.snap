@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`michi reset 1`] = `
+Array [
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+]
+`;
+
+exports[`michi seleccion 1`] = `
+Array [
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+]
+`;
+
+exports[`michi seleccion 2`] = `
+Array [
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+]
+`;
+
+exports[`michi seleccion 3`] = `
+Array [
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+]
+`;
+
+exports[`michi seleccion 4`] = `
+Array [
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+]
+`;
+
+exports[`michi seleccion 5`] = `
+Array [
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+]
+`;
+
+exports[`michi seleccion 6`] = `
+Array [
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+]
+`;
+
+exports[`michi seleccion 7`] = `
+Array [
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+]
+`;
+
+exports[`michi seleccion 8`] = `
+Array [
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+]
+`;
+
+exports[`michi seleccion 9`] = `
+Array [
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+  Array [
+    null,
+    null,
+    null,
+  ],
+]
+`;
