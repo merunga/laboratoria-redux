@@ -4,5 +4,7 @@ export const initialState = {
 }
 
 export default combineReducers({
-  secondValue: (state, action) => 2,
+  initialValue: (state = 3) => state,
+  secondValue: () => 2
 })
+
