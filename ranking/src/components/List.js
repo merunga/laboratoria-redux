@@ -12,7 +12,7 @@ const List = ({
   <ul>
     {canciones.map(c => (
       <li key={c.id}>
-        <span onClick={() => onSelect(c.id, canciones)}>{c.titulo}</span>
+        <span onClick={() => onSelect(c.id)}>{c.titulo}</span>
         <b>{c.votos}</b>
         <button onClick={() => onUpVote(c.id)}>+</button>
         <button onClick={() => onDownVote(c.id)} disabled={c.votos === 0}>-</button>

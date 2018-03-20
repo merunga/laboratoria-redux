@@ -1,7 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Header = ({ seleccionado, canciones, onPrev, onNext }) => (
+const Header = ({
+  seleccionado, canciones, onPrev, onNext,
+}) => (
   <div>
     <button onClick={() => onPrev(canciones)}>&lt;</button>
     <div>

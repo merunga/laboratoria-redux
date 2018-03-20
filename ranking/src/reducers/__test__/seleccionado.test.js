@@ -13,6 +13,6 @@ describe('seleccionado', () => {
     expect(seleccionado(initialState.seleccionado, actions.next(canciones))).toMatchSnapshot()
   })
   it('select', () => {
-    expect(seleccionado(initialState.seleccionado, actions.select(5, canciones))).toMatchSnapshot()
+    expect(seleccionado(initialState.seleccionado, actions.select(5))).toMatchSnapshot()
   })
 })
