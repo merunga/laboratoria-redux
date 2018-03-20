@@ -20,7 +20,7 @@ export default ({ row, x, onClick, winnerCombination }) => (
         style={
           styles(
             winnerCombination
-            && !!winnerCombination.find(coords => coords[0] === x && coords[1] === y)
+            && !!winnerCombination.find(coords => coords.x === x && coords.y === y)
           ).cell
         }
         key={`cell-${x}-${y}`}

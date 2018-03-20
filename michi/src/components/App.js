@@ -1,5 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux';
 import InfoBar from '../containers/InfoBar';
 import Matrix from '../containers/Matrix';
 import End from '../containers/End';
