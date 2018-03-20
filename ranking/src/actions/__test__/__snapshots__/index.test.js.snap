@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`actions crea action para downVote con id 1`] = `
+Object {
+  "id": 2,
+  "type": "UP_VOTE",
+}
+`;
+
+exports[`actions crea action para next 1`] = `
+Object {
+  "type": "NEXT",
+}
+`;
+
+exports[`actions crea action para prev 1`] = `
+Object {
+  "type": "PREV",
+}
+`;
+
+exports[`actions crea action para upvote con id 1`] = `
+Object {
+  "id": 1,
+  "type": "UP_VOTE",
+}
+`;
