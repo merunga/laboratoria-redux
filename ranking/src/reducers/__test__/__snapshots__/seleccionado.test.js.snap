@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`seleccionado next 1`] = `5`;
+
+exports[`seleccionado prev 1`] = `4`;
+
+exports[`seleccionado select 1`] = `5`;

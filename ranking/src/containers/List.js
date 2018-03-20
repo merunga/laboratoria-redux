@@ -1,5 +1,6 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
+import * as selectors from './selectors'
 import Component from '../components/List'
 import {
   upVote as onUpVote,
@@ -9,7 +10,7 @@ import {
 
 const List = connect(
   state => ({
-    canciones: state.canciones.sort((c1, c2) => c1.votos <= c2.votos),
+    canciones: selectors.canciones(state),
   }),
   dispatch => bindActionCreators({ onUpVote, onDownVote, onSelect }, dispatch),
 )(Component)
