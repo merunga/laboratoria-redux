@@ -11,9 +11,9 @@ describe('actions', () => {
     expect(actions.select(5)).toMatchSnapshot()
   })
   it('crea action para prev', () => {
-    expect(actions.prev()).toMatchSnapshot()
+    expect(actions.prev([])).toMatchSnapshot()
   })
   it('crea action para next', () => {
-    expect(actions.next()).toMatchSnapshot()
+    expect(actions.next([])).toMatchSnapshot()
   })
 })

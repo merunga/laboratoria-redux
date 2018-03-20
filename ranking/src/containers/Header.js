@@ -1,4 +1,5 @@
 import { connect } from 'react-redux'
+import * as selectors from './selectors'
 import Component from '../components/Header'
 import {
   prev as prevActionCreator,
@@ -7,14 +8,15 @@ import {
 
 const Header = connect(
   state => ({
-    seleccionado: state.canciones.find(c => c.id === state.seleccionado) || null,
+    seleccionado: selectors.seleccionado(state),
+    canciones: selectors.canciones(state),
   }),
   dispatch => ({
-    onPrev() {
-      dispatch(prevActionCreator())
+    onPrev(canciones) {
+      dispatch(prevActionCreator(canciones))
     },
-    onNext() {
-      dispatch(nextActionCreator())
+    onNext(canciones) {
+      dispatch(nextActionCreator(canciones))
     },
   }),
 )(Component)

@@ -21,10 +21,12 @@ export const select = id => ({
   id,
 })
 
-export const prev = () => ({
+export const prev = canciones => ({
   type: actionTypes.PREV,
+  canciones,
 })
 
-export const next = () => ({
+export const next = canciones => ({
   type: actionTypes.NEXT,
+  canciones,
 })

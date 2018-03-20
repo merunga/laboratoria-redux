@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectors canciones 1`] = `
+Array [
+  Object {
+    "autor": "Drake",
+    "id": 3,
+    "titulo": "God's Plan",
+    "votos": 100,
+  },
+  Object {
+    "autor": "Ed Sheeran",
+    "id": 2,
+    "titulo": "Perfect",
+    "votos": 90,
+  },
+  Object {
+    "autor": "Bruno Mars",
+    "id": 4,
+    "titulo": "Finesse",
+    "votos": 80,
+  },
+  Object {
+    "autor": "Post Malone",
+    "id": 1,
+    "titulo": "Psycho",
+    "votos": 70,
+  },
+  Object {
+    "autor": "Bebe Rexha & Florida Georgia Line",
+    "id": 5,
+    "titulo": "Meant To Be",
+    "votos": 60,
+  },
+]
+`;
+
+exports[`selectors seleccionado 1`] = `
+Object {
+  "autor": "Post Malone",
+  "id": 1,
+  "titulo": "Psycho",
+  "votos": 70,
+}
+`;

@@ -9,12 +9,14 @@ Object {
 
 exports[`actions crea action para next 1`] = `
 Object {
+  "canciones": Array [],
   "type": "NEXT",
 }
 `;
 
 exports[`actions crea action para prev 1`] = `
 Object {
+  "canciones": Array [],
   "type": "PREV",
 }
 `;
