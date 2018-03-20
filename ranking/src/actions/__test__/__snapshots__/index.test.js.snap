@@ -19,6 +19,13 @@ Object {
 }
 `;
 
+exports[`actions crea action para select con id 1`] = `
+Object {
+  "id": 5,
+  "type": "SELECT",
+}
+`;
+
 exports[`actions crea action para upvote con id 1`] = `
 Object {
   "id": 1,

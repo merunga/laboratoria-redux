@@ -7,6 +7,9 @@ describe('actions', () => {
   it('crea action para downVote con id', () => {
     expect(actions.upVote(2)).toMatchSnapshot()
   })
+  it('crea action para select con id', () => {
+    expect(actions.select(5)).toMatchSnapshot()
+  })
   it('crea action para prev', () => {
     expect(actions.prev()).toMatchSnapshot()
   })

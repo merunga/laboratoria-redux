@@ -3,6 +3,7 @@ export const actionTypes = {
   DOWN_VOTE: 'DOWN_VOTE',
   PREV: 'PREV',
   NEXT: 'NEXT',
+  SELECT: 'SELECT',
 }
 
 export const upVote = id => ({
@@ -12,6 +13,11 @@ export const upVote = id => ({
 
 export const downVote = id => ({
   type: actionTypes.DOWN_VOTE,
+  id,
+})
+
+export const select = id => ({
+  type: actionTypes.SELECT,
   id,
 })
 
