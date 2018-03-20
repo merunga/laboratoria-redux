@@ -15,10 +15,10 @@ export const downVote = id => ({
   id,
 })
 
-export const prev = id => ({
+export const prev = () => ({
   type: actionTypes.PREV,
 })
 
-export const next = id => ({
+export const next = () => ({
   type: actionTypes.NEXT,
 })
