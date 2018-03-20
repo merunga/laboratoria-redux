@@ -1,7 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const List = ({ canciones, onUpVote, onDownVote, onSelect }) => (
+
+/* eslint-disable jsx-a11y/interactive-supports-focus */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+
+const List = ({
+  canciones, onUpVote, onDownVote, onSelect,
+}) => (
   <ul>
     {canciones.map(c => (
       <li key={c.id}>
