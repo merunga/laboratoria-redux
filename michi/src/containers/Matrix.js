@@ -1,22 +1,17 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import * as selectors from '../selectors'
-import Component from '../components/Michi'
-import {
-  select as onSelect,
-  reset as onReset,
-} from '../actions'
+import Component from '../components/Matrix'
+import { select } from '../actions'
 
-const Michi = connect(
+const Matrix = connect(
   state => ({
     michi: state.michi,
     turnoActual: selectors.turnoActual(state),
-    ganador: selectors.ganador(state),
     jugadaGanadora: selectors.jugadaGanadora(state),
-    empate: selectors.empate(state),
     // historia: state.historia,
   }),
-  dispatch => bindActionCreators({ onSelect, onReset }, dispatch),
+  dispatch => bindActionCreators({ select }, dispatch),
 )(Component)
 
-export default Michi
+export default Matrix

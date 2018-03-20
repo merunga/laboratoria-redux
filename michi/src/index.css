@@ -1,5 +1,24 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'VT323', monospace;
+  text-transform: uppercase;
+}
+body, #root {
+  height: 100vh;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: lime;
+  font-size: 30px;
+}
+button {
+  background: #333;
+  color: lime;
+  border: 1px solid #444;
+  padding: 7px 10px;
+  font-size: 20px;
 }

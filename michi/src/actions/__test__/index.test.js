@@ -6,7 +6,7 @@ describe('actions', () => {
     /* eslint-disable array-callback-return */
     row.map((i) => {
       row.map((j) => {
-        expect(actions.select(i, j)).toMatchSnapshot()
+        expect(actions.select(i, j, 'X')).toMatchSnapshot()
       })
     })
     /* eslint-enable array-callback-return */
