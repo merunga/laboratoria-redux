@@ -7,8 +7,8 @@ const List = ({ canciones, onUpVote, onDownVote }) => (
       <li key={c.id}>
         <span>{c.titulo}</span>
         <b>{c.votos}</b>
-        <button onClick={onUpVote}>+</button>
-        <button onClick={onDownVote}>-</button>
+        <button onClick={() => onUpVote(c.id)}>+</button>
+        <button onClick={() => onDownVote(c.id)}>-</button>
       </li>
     ))}
   </ul>
