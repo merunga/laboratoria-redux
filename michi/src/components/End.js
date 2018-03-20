@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const styles = {
   root: {
@@ -18,7 +18,7 @@ const styles = {
   button: {
     marginTop: 5,
   },
-};
+}
 
 export default ({ winner, reset }) => (
   <div style={styles.root}>

@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 
 const styles = {
   root: {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-  }
-};
+  },
+}
 
 export default ({ currPlayer, reset }) => (
   <div style={styles.root}>

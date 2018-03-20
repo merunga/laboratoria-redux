@@ -60,6 +60,13 @@ describe('selectors', () => {
   it('empate', () => {
     expect(selectors.empate({
       michi: [
+        [nil, nil, nil],
+        [nil, nil, nil],
+        [nil, nil, nil],
+      ],
+    })).toBe(false)
+    expect(selectors.empate({
+      michi: [
         ['X', 'O', 'X'],
         ['O', nil, nil],
         [nil, nil, nil],

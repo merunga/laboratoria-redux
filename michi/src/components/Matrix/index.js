@@ -1,5 +1,5 @@
-import React from 'react';
-import MatrixRow from './MatrixRow';
+import React from 'react'
+import MatrixRow from './MatrixRow'
 
 const styles = {
   matrix: {
@@ -8,9 +8,11 @@ const styles = {
     height: 300,
     marginTop: 10,
   },
-};
+}
 
-export default ({ michi, select, turnoActual, jugadaGanadora }) => (
+export default ({
+  michi, select, turnoActual, jugadaGanadora,
+}) => (
   <div style={styles.matrix}>
     {michi.map((row, x) => (
       <MatrixRow
@@ -22,4 +24,4 @@ export default ({ michi, select, turnoActual, jugadaGanadora }) => (
       />
     ))}
   </div>
-);
+)

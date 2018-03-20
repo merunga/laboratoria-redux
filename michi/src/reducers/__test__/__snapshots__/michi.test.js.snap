@@ -23,7 +23,7 @@ Array [
 exports[`michi seleccion 1`] = `
 Array [
   Array [
-    null,
+    "X",
     null,
     null,
   ],
@@ -44,7 +44,7 @@ exports[`michi seleccion 2`] = `
 Array [
   Array [
     null,
-    null,
+    "X",
     null,
   ],
   Array [
@@ -65,7 +65,7 @@ Array [
   Array [
     null,
     null,
-    null,
+    "X",
   ],
   Array [
     null,
@@ -88,7 +88,7 @@ Array [
     null,
   ],
   Array [
-    null,
+    "X",
     null,
     null,
   ],
@@ -109,7 +109,7 @@ Array [
   ],
   Array [
     null,
-    null,
+    "X",
     null,
   ],
   Array [
@@ -130,7 +130,7 @@ Array [
   Array [
     null,
     null,
-    null,
+    "X",
   ],
   Array [
     null,
@@ -153,7 +153,7 @@ Array [
     null,
   ],
   Array [
-    null,
+    "X",
     null,
     null,
   ],
@@ -174,7 +174,7 @@ Array [
   ],
   Array [
     null,
-    null,
+    "X",
     null,
   ],
 ]
@@ -195,7 +195,7 @@ Array [
   Array [
     null,
     null,
-    null,
+    "X",
   ],
 ]
 `;
